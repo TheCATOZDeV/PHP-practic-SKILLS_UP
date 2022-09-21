@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/reset.css">
+    <title>Formulario</title>
+</head>
+<body>
+   <div>
+       <h2>Información de Contacto:</h2>
+       <label>Nombre completo: <input type="text" name="nombre_01" id="nombre_01" required></label><br><br>
+       <label>Dirección de correo electrónico: <input type="email" name="email_default" id="email_default" required></label><br><br>
+       <label>Número de teléfono: <input type="tel" name="telefono_default" id="telefono_default"></label><br><br>
+       <label>Dirección de la calle: <input type="text" name="calle_default" id="calle_default"></label><br><br>
+       <label>Ciudad: <input type="text" name="ciudad_default" id="ciudad_default"></label><br><br>
+       <label>isla: <select name="isla_opciones_default" id="isla_opciones_default" placeholder="selecciona isla">
+        <option value="opcion_default">Selecciona una isla</option>   
+        <option value="isla_1">Gran Canaria</option>
+           <option value="isla_2">Tenerife</option>
+           <option value="isla_3">La Palma</option>
+           <option value="isla_4">El Hierro</option>
+           <option value="isla_5">La Gomera</option>
+           <option value="isla_6">Fuerteventura</option>
+       </select>
+    </label><br><br>
+    <label>Código postal: <input type="number" name="codigo_postal_default" id="codigo_postal_default" maxlength="5"></label><br><br>
+   </div>
+   <hr>
+   <div>
+   <h2>Newsletter:</h2>	
+   <p>Selecciona los newsletters que te gustaría recibir:</p><br>
+   <label>Noticias sobre HTML<input type="checkbox" name="noticias_HTML_default" id="noticias_HTML_default" checked></label><br>
+   <label>Noticias sobre CSS<input type="checkbox" name="noticias_CSS_default" id="noticias_CSS_default"></label><br>
+   <label>Noticias sobre Javascript<input type="checkbox" name="noticias_Javascript_default" id="noticias_Javascript_default"></label><br>
+   <h2>formato del Newsletter:</h2><br>
+   <label>HTML <input type="radio" name="HTML_default" id="HTML_default" checked></label><br><br>
+   <label>Texto plano: <input type="radio" name="texto_plano_default" id="texto_plano_default"></label><br><br>
+   <p>otros tópicos de los que quieras recibir sobre ello:</p><br><br>
+   <textarea name="area_texto_usuario_default" id="area_texto_usuario_default" cols="30" rows="10"></textarea><br><br>
+   <button type="submit">Enviar</button><br><br>
+   <button type="reset">Reset</button>
+</div>
+<footer>
+    <p>© copyright The code Review</p>
+   </footer>
+</body>
+</html>
