@@ -1,0 +1,5 @@
+<?php 
+require "../require/config.php";
+$name= $email = $gender = $comment $website = "";
+
+?>
