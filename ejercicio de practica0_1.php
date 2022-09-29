@@ -33,7 +33,11 @@ function validar_name($name){
         return
     }
 }
-
+$name = limpiar_dato($_POST["name"]);
+$email = limpiar_dato($_POST["email"]);
+$phone = limpiar_dato($_POST["phone"]);
+$address = limpiar_dato($_POST["address"]);
+$city = limpiar_dato($_POST["city"]);
 
 
 
