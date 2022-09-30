@@ -38,11 +38,40 @@ $email = limpiar_dato($_POST["email"]);
 $phone = limpiar_dato($_POST["phone"]);
 $address = limpiar_dato($_POST["address"]);
 $city = limpiar_dato($_POST["city"]);
+ 
 
 
 
 
 
+if (isset($_POST["address"])){
+
+    $address = limpiar_dato($_POST["address"]);
+}else{
+    $address = NULL;
+}
+$city =limpiar_dato($_POST["city"]);
+$communities =limpiar_dato($_POST["communities"]);
+$Zcode =limpiar_dato($_POST["Zcode"]);
+$format =limpiar_dato($_POST["format"]);
+if (isset($_POST["city"])){
+
+    $city = limpiar_dato($_POST["city"]);
+}else{
+    $city = NULL;
+}
+if (isset($_POST["Zcode"])){
+
+    $Zcode = limpiar_dato($_POST["Zcode"]);
+}else{
+    $Zcode = NULL;
+}
+if (isset($_POST["communities"])){
+
+    $communities = limpiar_dato($_POST["communities"]);
+}else{
+    $communities = NULL;
+}
 
 
 }
