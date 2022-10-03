@@ -72,6 +72,6 @@ if (isset($_POST["communities"])){
 }else{
     $communities = NULL;
 }
-
+if(!empty($_POST["name"])) || !empty($_POST["email"]) || !empty($_POST[["phone"]])
 
 }
