@@ -75,5 +75,6 @@ if (isset($_POST["communities"])){
 if(!empty($_POST["name"])) || !empty($_POST["email"]) || !empty($_POST[["phone"]])
  echo "Método post no ha llegado";
  if (!empty($_POST))
+ 
 }
 
