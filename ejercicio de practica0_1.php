@@ -75,6 +75,15 @@ if (isset($_POST["communities"])){
 if(!empty($_POST["name"])) || !empty($_POST["email"]) || !empty($_POST[["phone"]])
  echo "Método post no ha llegado";
  if (!empty($_POST))
+ //***************BORRAME********************************** */
+ echo "<br><strong>Name:</strong> $name <br>";
+ echo "<strong>Telefono:</strong> $phone<br>";
+ echo "<strong>Email:</strong> $email<br>";
+ echo "<strong>Address:</strong> $address<br>";
+ echo "<strong> city:</strong> $city<br>";
+ echo "<strong> Autonomous Communities: </strong> $communities <br>";
+ echo "<strong> zip code:</strong> $Zcode <br>";
+
  
 }
 
