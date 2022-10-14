@@ -83,7 +83,11 @@ if(!empty($_POST["name"])) || !empty($_POST["email"]) || !empty($_POST[["phone"]
  echo "<strong> city:</strong> $city<br>";
  echo "<strong> Autonomous Communities: </strong> $communities <br>";
  echo "<strong> zip code:</strong> $Zcode <br>";
-
- 
+var_dump($newsletter);
+echo "<br> longitud de newsletter:  " .count($newsletter). ".";
+echo "</br>";
+$string=implode(",", $newsletter);
+echo $string;
+echo "</br>";
 }
 
