@@ -89,5 +89,10 @@ echo "</br>";
 $string=implode(",", $newsletter);
 echo $string;
 echo "</br>";
+
+$stmt->execute();
+echo "new record created sucessfuly.<br>";
+echo "valor a ingresado decimal de 3bit ".$checknewsletter . "<br>";
+
 }
 
